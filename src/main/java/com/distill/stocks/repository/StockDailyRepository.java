@@ -17,4 +17,5 @@ public interface StockDailyRepository extends JpaRepository<Stock, Long> {
 
     List<Stock> findByTickerInAndDateBetween(List<String> tickers, LocalDate startDate, LocalDate endDate);
 
+
 }

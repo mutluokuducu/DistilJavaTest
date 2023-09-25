@@ -10,10 +10,10 @@ import java.time.LocalDate;
 @Entity
 @Getter
 @Setter
-@Table(name = "stock_daily")
 @AllArgsConstructor
 @NoArgsConstructor
 @ToString
+@Table(name = "stock_daily")
 public class Stock {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

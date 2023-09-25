@@ -33,7 +33,6 @@ public class StocksController {
         if (stockDailies.isEmpty()) {
             return ResponseEntity.noContent().build(); // Return 204 No Content if no data found.
         }
-
         // Call the service to fetch the top 10 highest value stocks
         return ResponseEntity.ok(stockDailies);
     }

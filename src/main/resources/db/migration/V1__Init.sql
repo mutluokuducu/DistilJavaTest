@@ -9,6 +9,5 @@ CREATE TABLE IF NOT EXISTS stock_daily
     close  DOUBLE PRECISION,
     date   DATE
 );
-
 CREATE UNIQUE INDEX IF NOT EXISTS unique_stock_daily ON stock_daily (ticker, date);
 

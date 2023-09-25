@@ -16,4 +16,5 @@ public class StocksProperties {
     public void setFetchDataForDays(int fetchDataForDays) {
         this.fetchDataForDays = fetchDataForDays;
     }
+
 }

@@ -22,6 +22,7 @@ public class PersistentLocalDate implements UserType<LocalDate> {
         return LocalDate.class;
     }
 
+
     @Override
     public boolean equals(LocalDate x, LocalDate y) {
         if (x == y) {

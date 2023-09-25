@@ -26,5 +26,4 @@ public class StockDto {
     @JsonProperty("vw")
     private double vw;
 
-
 }

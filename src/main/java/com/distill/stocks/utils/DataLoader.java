@@ -23,6 +23,7 @@ import java.util.List;
 public class DataLoader implements ApplicationRunner {
 
     private final StockDailyRepository stockDailyRepository;
+
     private final ApiRequestHandler apiRequestHandler;
 
     private static final Logger LOGGER = LoggerFactory.getLogger(DataLoader.class);

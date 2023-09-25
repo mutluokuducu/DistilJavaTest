@@ -23,5 +23,4 @@ public class StockDataResponse {
     private String requestId;
     @JsonProperty("count")
     private String count;
-
 }

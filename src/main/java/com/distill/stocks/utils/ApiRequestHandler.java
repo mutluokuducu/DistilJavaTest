@@ -38,7 +38,6 @@ public class ApiRequestHandler {
         try {
             LOGGER.info("Api response to data ");
             return objectMapper.readValue(jsonResponse, StockDataResponse.class);
-
         } catch (JsonProcessingException e) {
             // Handle any JSON parsing errors here
             e.printStackTrace();

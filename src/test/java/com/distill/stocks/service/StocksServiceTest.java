@@ -23,7 +23,6 @@ public class StocksServiceTest {
     @InjectMocks
     private StocksServiceImpl stocksService;
 
-
     @Mock
     private StockDailyRepository stockDailyRepository;
 

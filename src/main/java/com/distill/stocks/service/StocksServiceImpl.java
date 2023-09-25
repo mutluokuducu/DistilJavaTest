@@ -29,7 +29,6 @@ public class StocksServiceImpl implements StocksService {
     public List<Stock> getTop10HighestValueStocksForPrevious7Days(LocalDate startDate, LocalDate endDate) {
 
         List<Stock> top10Stocks = stockDailyRepository.findTop10ByDateBetweenOrderByCloseDesc(startDate, endDate);
-
         // Check if there are enough data points; if not, return an appropriate message.
         if (top10Stocks.size() < 10) {
             // Return a message or handle this case as needed.
